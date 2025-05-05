@@ -1,5 +1,13 @@
 # D604-Task-2-Sentiment-Analysis-Using-Neural-Networks
+### Overview
+This project implements sentiment analysis on IMDb movie reviews using an LSTM neural network. It focuses on preprocessing text data, training a deep learning model, and evaluating its performance to classify reviews as positive or negative.
 
+### Sentiment Analysis Using Neural Networks – IMDb Movie Reviews
+- Developed and trained an LSTM neural network to classify movie reviews as positive or negative, using tokenization, lemmatization, and padding to preprocess text data.
+= Achieved ~76% accuracy on the test set; implemented early stopping and dropout layers to address overfitting and ensure generalization to unseen reviews.
+- Evaluated model performance using accuracy, loss metrics, and a confusion matrix; saved the final model and included code to support reproducibility and deployment.
+
+### Files
 1. README.md - A file describing other files in this repository.
 
 2. D604Task2Final.ipynb - A Jupyter Notebook file that contains the code for sentiment analysis using neural networks.
